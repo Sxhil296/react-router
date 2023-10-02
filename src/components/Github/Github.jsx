@@ -28,6 +28,8 @@ const Github = () => {
 
 export default Github;
 
+
+//when using loader in route
 export const githubInfoLoader = async () => {
   const response = await fetch("https://api.github.com/users/sxhil296");
   return response.json();
